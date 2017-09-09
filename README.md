@@ -4,3 +4,4 @@ Holds code for the first class of Applied Data Analytics. Files include:
 * `Introduction to Python.ipynb`: A notebook to step through and explore Python. Has some exercises.
 * `Introduction to Python with Answers.ipynb`: Same as the above but with answers.
 
+* Trying a test from R-Studio
