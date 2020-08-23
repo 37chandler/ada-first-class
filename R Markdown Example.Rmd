@@ -1,7 +1,6 @@
 ---
 title: "A Minimal Example"
 author: "John Chandler"
-date: "September 4, 2017"
 output:
   pdf_document: default
   html_document: default
@@ -21,7 +20,7 @@ A quote:
 To compile this, just click the `Knit` button in R Studio.
 You can actually see it rendered [here](https://github.com/37chandler/ada-first-class/blob/master/R%20Markdown%20Example.Rmd).
 
-## code chunks
+## Code Chunks
 
 A _paragraph_ here. A code chunk below (remember the three backticks):
 
@@ -30,7 +29,7 @@ A _paragraph_ here. A code chunk below (remember the three backticks):
 .4-.7+.3 # what? it is not zero!
 ```
 
-## graphics
+## Graphics
 
 Graphics are pretty easy.
 
@@ -40,16 +39,16 @@ plot(mtcars$disp,mtcars$mpg)
 hist(rnorm(1000))
 ```
 
-## inline code
+## Inline Code
 
 Inline code is designated by single backticks. So we made that
 `mtcars` plot with `plot(mtcars$disp,mtcars$mpg)`. 
 
-## math
+## Math
 
-Sigh. You cannot live without math equations. OK, here we go: $\alpha+\beta=\gamma$. Note this is not supported by native markdown. You probably want to try RStudio, or at least the R package **markdown**, or the function `knitr::knit2html()`.
+One  cannot live without math equations. OK, here we go: $\alpha+\beta=\gamma$. Note this is not supported by native markdown. You probably want to try RStudio, or at least the R package **markdown**, or the function `knitr::knit2html()`.
 
-## nested code chunks
+## Nested Code Chunks
 
 You can write code within other elements, e.g. a list
 
@@ -68,7 +67,7 @@ Or inside blockquotes:
 > rev(x^2)
 > ```
 
-## conclusion
+## Conclusion
 
 We'll do more of this, but now you've got an example. 
 
